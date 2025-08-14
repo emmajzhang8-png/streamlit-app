@@ -22,6 +22,7 @@ def predict_image(img):
     return class_labels[predicted_class]
 
 st.title("DISTRACTED DRIVING")
+st.write("By Emma, Abdullah, Andrew")
 
 # Create your upload image button
 uploaded_file = st.file_uploader("Prompt", type=["jpg", "png"])
